@@ -1,0 +1,8 @@
+html {
+    /*background-color: #f4a300;*/
+    background-color: #212C31;
+}
+
+div.no-print {
+    display: none;
+}

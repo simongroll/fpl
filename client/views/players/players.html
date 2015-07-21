@@ -1,0 +1,46 @@
+<template name="players">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>Players</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-success">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Listing</h3>
+                        <div class="box-tools pull-right">
+                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <div class="box-body" style="display: block;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Team</th>
+                                    <th>Position</th>
+                                    <th>Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each players}}
+                                <tr>
+                                    <td>{{name}}</td>
+                                    <td>{{team}}</td>
+                                    <td>{{position}}</td>
+                                    <td>{{points}}</td>
+                                </tr>
+                                {{else}}
+                                <tr>
+                                    <td colspan=4>No Players loaded</td>
+                                </tr> {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
