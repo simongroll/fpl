@@ -5,45 +5,101 @@
     </section>
     <!-- Main content -->
     <section class="content">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="box box-success">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">Listing</h3>
-                        <div class="box-tools pull-right">
-                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                        </div>
-                    </div>
-                    <div class="box-body" style="display: block;">
-
+        <!-- {{>totals}}  -->
+        {{>detailed}}
+    </section>
+</template>
+<template name="totals">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Standings</h3>
+                </div>
+                <div class="box-body" style="display: block;">
                     <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Team Name</th>
-                            <th>Score</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    {{#each teams}}
-
-                    <tr>
-                        <td>{{name}}</td>
-                        <td>{{score}}</td>
-                    </tr>
-
-                    {{else}}
-                    <tr>
-                        <td colspan="2">Loading . . .</td>
-                    </tr>
-                    {{/each}}
-                    </tbody>
+                        <thead>
+                            <tr>
+                                <th>Team Name</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each teams}}
+                            <tr>
+                                <td>{{name}}</td>
+                                <td>{{score}}</td>
+                            </tr>
+                            {{else}}
+                            <tr>
+                                <td colspan="2">Loading . . .</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
                     </table>
-
-                        <div class="clearfix"></div>
-                    </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </template>
+<template name="detailed">
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-success">
+            <div class="box-header with-border">
+                <h3 class="box-title">Detailed Standings</h3>
+            </div>
+            <div class="box-body" style="display: block;">
+                <table class="table table-striped player-table">
+                    <thead>
+                        <tr>
+                            <th>Team Name</th>
+                            <th>GK</th>
+                            <th>DF1</th>
+                            <th>DF2</th>
+                            <th>DF3</th>
+                            <th>DF4</th>
+                            <th>MF1</th>
+                            <th>MF2</th>
+                            <th>MF3</th>
+                            <th>MF4</th>
+                            <th>CF1</th>
+                            <th>CF2</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each teams}}
+                        <tr>
+                            <th>{{name}}</th>
+                            <td>{{gk.points}}<br/><small> {{gk.name}}</small></td>
+                            {{#each defenders}}
+                            <td>{{points}}<br/><small> {{name}}</small></td>
+                            {{/each}}
+                            {{#each midfielders}}
+                            <td>{{points}}<br/><small> {{name}}</small></td>
+                            {{/each}}
+                            {{#each forwards}}
+                            <td>{{points}}<br/><small> {{name}}</small></td>
+                            {{/each}}
+                            <th>{{total}}</th>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td colspan="2">Loading . . .</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</template>
+<!-- <template name="team">
+{{#with selectedTeam}}
+
+{{/with}}
+</template> -->

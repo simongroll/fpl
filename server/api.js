@@ -1,11 +1,7 @@
 Meteor.methods({
     "getPlayerData": function(index) {
         try {
-            //Get Player Data Function
-            // console.log("Get Player Data with index = "+index);
             var response = HTTP.get('http://fantasy.premierleague.com/web/api/elements/' + index);
-            // console.log("response = ");
-            // console.log(JSON.stringify(response));
 
             var fplTeamCode = Players.findOne(index).fplTeamCode || null;
 
@@ -16,7 +12,7 @@ Meteor.methods({
                 position: response.data.type_name,
                 team: response.data.team_name,
                 points: response.data.total_points,
-                name: response.data.web_name + ' ' + response.data.second_name,
+                name: response.data.first_name + ' ' + response.data.web_name,
                 goals: response.data.goals,
                 assists: response.data.assists,
                 clean_sheets: response.data.clean_sheets,
@@ -61,7 +57,7 @@ Meteor.methods({
                             'players.$.photo': response.data.photo,
                             'players.$.position': response.data.type_name,
                             'players.$.team': response.data.team_name,
-                            'players.$.name': response.data.web_name + ' ' + response.data.second_name,
+                            'players.$.name': response.data.first_name + ' ' + response.data.web_name,
                             'players.$.goals': response.data.goals,
                             'players.$.assists': response.data.assists,
                             'players.$.clean_sheets': response.data.clean_sheets,
@@ -76,8 +72,6 @@ Meteor.methods({
                     });
 
                 }); // /each player
-
-                console.log("team " + team.name + " score = " + score);
 
                 Teams.update({
                     "_id": team._id

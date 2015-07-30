@@ -6,3 +6,16 @@ html {
 div.no-print {
     display: none;
 }
+
+.player-table thead tr th {
+    text-align: center;
+}
+
+.player-table tbody tr td {
+    text-align: center;
+}
+
+.player-table tbody tr th {
+    text-align: center;
+    vertical-align: middle;
+}
