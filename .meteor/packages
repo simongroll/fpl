@@ -21,3 +21,4 @@ jquery
 less
 twbs:bootstrap
 mrt:modernizr-meteor
+aldeed:tabular

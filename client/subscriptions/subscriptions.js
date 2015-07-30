@@ -2,4 +2,4 @@
 // SUBSCRIPTIONS (not handled with routing)
 // ***************************************************************
 
-Meteor.subscribe('campaigns');
+// Meteor.subscribe('teams');

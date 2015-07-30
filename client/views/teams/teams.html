@@ -1,0 +1,49 @@
+<template name="teams">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>Teams</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-success">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Listing</h3>
+                        <div class="box-tools pull-right">
+                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <div class="box-body" style="display: block;">
+
+                    <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Team Name</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    {{#each teams}}
+
+                    <tr>
+                        <td>{{name}}</td>
+                        <td>{{score}}</td>
+                    </tr>
+
+                    {{else}}
+                    <tr>
+                        <td colspan="2">Loading . . .</td>
+                    </tr>
+                    {{/each}}
+                    </tbody>
+                    </table>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
