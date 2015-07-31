@@ -22,3 +22,4 @@ less
 twbs:bootstrap
 mrt:modernizr-meteor
 aldeed:tabular
+dburles:collection-helpers

@@ -1,9 +1,19 @@
-if (Teams.find().count() === 0) {
-    console.log("Importing private/teams.json to db")
+Meteor.startup(function() {
 
-    var data = JSON.parse(Assets.getText("teams.json"));
+    if (Teams.find().count() === 0) {
+        console.log("Importing private/teams.json to db")
 
-    data.forEach(function(item, index, array) {
-        Teams.insert(item);
-    });
-}
+        var data = JSON.parse(Assets.getText("teams.json"));
+
+        data.forEach(function(item, index, array) {
+            Teams.insert(item);
+        });
+
+        Meteor.call("loadTeamData", function(err, res) {
+            if (err) console.log(err);
+            else {}
+        });
+
+    }
+
+});

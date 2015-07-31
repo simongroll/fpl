@@ -1,34 +1,146 @@
 <template name="teams">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1>Teams</h1>
+        <h1>Fantasy Auction 2015/2016</h1>
     </section>
     <!-- Main content -->
     <section class="content">
-        <!-- {{>totals}}  -->
-        {{>detailed}}
+        {{>totals}} {{>detailed}}
     </section>
 </template>
 <template name="totals">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-xs-12 {{chosenToggle}}">
             <div class="box box-success">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Standings</h3>
+                    <h3 class="box-title">Standings <small> Click on team to expand</small></h3>
                 </div>
                 <div class="box-body" style="display: block;">
-                    <table class="table table-striped">
+                    <table class="table table-striped totals">
                         <thead>
                             <tr>
+                                <th></th>
                                 <th>Team Name</th>
                                 <th>Score</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {{#each teams}}
+                            {{#each indexedArray teams}} {{>team}} {{else}}
                             <tr>
-                                <td>{{name}}</td>
-                                <td>{{score}}</td>
+                                <td colspan="3">Loading . . .</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        {{#if selectedTeam}} {{>team_visi selectedTeam}} {{/if}}
+    </div>
+</template>
+<template name="team_visi">
+    <div class="col-xs-12 col-md-6">
+        <div class="box box-success">
+            <div class="box-header with-border">
+                <h3 class="box-title">{{this.name}} <small>{{score}} points</small></h3>
+                <div class="box-tools pull-right">
+                    <button class="btn btn-box-tool"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <div class="box-body" style="display: block;">
+                <div class="team-visi">
+                    <div class="row forwards">
+                        <div class="col-xs-3"></div>
+                        {{#each forwards}}
+                        <div class="col-xs-3">
+                            {{>player_template player=this}}
+                        </div>
+                        {{/each}}
+                        <div class="col-xs-3"></div>
+                    </div>
+                    <div class="row midfielders">
+                        {{#each midfielders}}
+                        <div class="col-xs-3">
+                            {{>player_template player=this}}
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="row defenders">
+                        {{#each defenders}}
+                        <div class="col-xs-3">
+                            {{>player_template player=this}}
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="row gk">
+                        {{>player_template player=goalie}}
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</template>
+<template name="player_template">
+    <div class="player">
+        <img src="http://cdn.ismfg.net/static/plfpl/img/shirts/photos/{{player.photo}}" alt="{{player.name}}">
+        <span class="name">{{player.name}}</span>
+        <span class="points">{{player.points}}</span>
+    </div>
+</template>
+<template name="team">
+    <tr>
+        <td>{{_index}}</td>
+        <td>{{name}}</td>
+        <td>{{best_xi_score}}</td>
+    </tr>
+</template>
+<template name="detailed">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Detailed Standings</h3>
+                </div>
+                <div class="box-body table-responsive" style="display: block;">
+                    <table class="table table-striped player-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Team Name</th>
+                                <th>GK</th>
+                                <th>DF1</th>
+                                <th>DF2</th>
+                                <th>DF3</th>
+                                <th>DF4</th>
+                                <th>MF1</th>
+                                <th>MF2</th>
+                                <th>MF3</th>
+                                <th>MF4</th>
+                                <th>CF1</th>
+                                <th>CF2</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each indexedArray teams}}
+                            <tr>
+                                <td style="vertical-align: middle;">{{_index}}</td>
+                                <th>{{name}}</th>
+                                <td>{{gk.points}}
+                                    <br/><small> {{gk.name}}</small></td>
+                                {{#each defenders}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}} {{#each midfielders}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}} {{#each forwards}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}}
+                                <th>{{best_xi_score}}</th>
                             </tr>
                             {{else}}
                             <tr>
@@ -43,63 +155,3 @@
         </div>
     </div>
 </template>
-<template name="detailed">
-<div class="row">
-    <div class="col-md-12">
-        <div class="box box-success">
-            <div class="box-header with-border">
-                <h3 class="box-title">Detailed Standings</h3>
-            </div>
-            <div class="box-body" style="display: block;">
-                <table class="table table-striped player-table">
-                    <thead>
-                        <tr>
-                            <th>Team Name</th>
-                            <th>GK</th>
-                            <th>DF1</th>
-                            <th>DF2</th>
-                            <th>DF3</th>
-                            <th>DF4</th>
-                            <th>MF1</th>
-                            <th>MF2</th>
-                            <th>MF3</th>
-                            <th>MF4</th>
-                            <th>CF1</th>
-                            <th>CF2</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{#each teams}}
-                        <tr>
-                            <th>{{name}}</th>
-                            <td>{{gk.points}}<br/><small> {{gk.name}}</small></td>
-                            {{#each defenders}}
-                            <td>{{points}}<br/><small> {{name}}</small></td>
-                            {{/each}}
-                            {{#each midfielders}}
-                            <td>{{points}}<br/><small> {{name}}</small></td>
-                            {{/each}}
-                            {{#each forwards}}
-                            <td>{{points}}<br/><small> {{name}}</small></td>
-                            {{/each}}
-                            <th>{{total}}</th>
-                        </tr>
-                        {{else}}
-                        <tr>
-                            <td colspan="2">Loading . . .</td>
-                        </tr>
-                        {{/each}}
-                    </tbody>
-                </table>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-</template>
-<!-- <template name="team">
-{{#with selectedTeam}}
-
-{{/with}}
-</template> -->

@@ -3,7 +3,9 @@ Meteor.methods({
         try {
             var response = HTTP.get('http://fantasy.premierleague.com/web/api/elements/' + index);
 
-            var fplTeamCode = Players.findOne(index).fplTeamCode || null;
+            console.log(response.data.first_name + " "+ response.data.web_name+","+response.data.id);
+
+            // var fplTeamCode = Players.findOne(index).fplTeamCode || null;
 
             Players.update({
                 _id: index
@@ -22,8 +24,8 @@ Meteor.methods({
                 in_dream_team: response.data.in_dreamteam,
                 yellows: response.data.yellow_cards,
                 reds: response.data.red_cards,
-                saves: response.data.saves,
-                fpl_team: fplTeamCode
+                saves: response.data.saves//,
+                // fpl_team: fplTeamCode
             }, {
                 upsert: true
             });

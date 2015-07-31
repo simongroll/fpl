@@ -1,0 +1,529 @@
+1_Wojciech Szczesny,Arsenal^Goalkeeper
+2_David Ospina,Arsenal^Goalkeeper
+3_Petr Cech,Arsenal^Goalkeeper
+4_Laurent Koscielny,Arsenal^Defender
+5_Per Mertesacker,Arsenal^Defender
+6_Gabriel Armando Gabriel,Arsenal^Defender
+7_Hector Bellerín,Arsenal^Defender
+8_Kieran Gibbs,Arsenal^Defender
+9_Mathieu Debuchy,Arsenal^Defender
+10_Carl Jenkinson,West Ham^Defender
+11_Nacho Monreal,Arsenal^Defender
+12_Calum Chambers,Arsenal^Defender
+13_Alexis Sánchez,Arsenal^Midfielder
+14_Theo Walcott,Arsenal^Midfielder
+15_Mesut Özil,Arsenal^Midfielder
+16_Santiago Cazorla,Arsenal^Midfielder
+17_Aaron Ramsey,Arsenal^Midfielder
+18_Jack Wilshere,Arsenal^Midfielder
+19_Alex Chamberlain,Arsenal^Midfielder
+20_Mikel Arteta,Arsenal^Midfielder
+21_Tomas Rosicky,Arsenal^Midfielder
+22_Serge Gnabry,Arsenal^Midfielder
+23_Gedion Zelalem,Arsenal^Midfielder
+24_Francis Coquelin,Arsenal^Midfielder
+25_Mathieu Flamini,Arsenal^Midfielder
+26_Olivier Giroud,Arsenal^Forward
+27_Danny Welbeck,Arsenal^Forward
+28_Chuba Akpom,Arsenal^Forward
+29_Yaya Sanogo,Arsenal^Forward
+30_Bradley Guzan,Aston Villa^Goalkeeper
+31_Shay Given,Stoke^Goalkeeper
+32_Leandro Bacuna,Aston Villa^Defender
+33_Kieran Richardson,Aston Villa^Defender
+34_Ron Vlaar,Aston Villa^Defender
+35_Philippe Senderos,Aston Villa^Defender
+36_Aly Cissokho,Aston Villa^Defender
+37_Alan Hutton,Aston Villa^Defender
+38_Ciaran Clark,Aston Villa^Defender
+39_Jores Okore,Aston Villa^Defender
+40_Nathan Baker,Aston Villa^Defender
+41_Lewis Kinsella,Aston Villa^Defender
+42_Micah Richards,Aston Villa^Defender
+43_Fabian Delph,Man City^Midfielder
+44_Carles Carles Gil,Aston Villa^Midfielder
+45_Charles N'Zogbia,Aston Villa^Midfielder
+46_Joe Cole,Aston Villa^Midfielder
+47_Jack Grealish,Aston Villa^Midfielder
+48_Scott Sinclair,Aston Villa^Midfielder
+49_Ashley Westwood,Aston Villa^Midfielder
+50_Carlos Sánchez,Aston Villa^Midfielder
+51_Christian Benteke,Liverpool^Forward
+52_Gabriel Agbonlahor,Aston Villa^Forward
+53_Libor Kozák,Aston Villa^Forward
+54_Rushian Hepburn-Murphy,Aston Villa^Forward
+55_Artur Boruc,Bournemouth^Goalkeeper
+56_Adam Federici,Bournemouth^Goalkeeper
+57_Simon Francis,Bournemouth^Defender
+58_Steve Cook,Bournemouth^Defender
+59_Tommy Elphick,Bournemouth^Defender
+60_Charlie Daniels,Bournemouth^Defender
+61_Adam Smith,Bournemouth^Defender
+62_Tyrone Mings,Bournemouth^Defender
+63_Sylvain Distin,Bournemouth^Defender
+64_Matt Ritchie,Bournemouth^Midfielder
+65_Christian Atsu,Bournemouth^Midfielder
+66_Joshua King,Bournemouth^Midfielder
+67_Harry Arter,Bournemouth^Midfielder
+68_Marc Pugh,Bournemouth^Midfielder
+69_Andrew Surman,Bournemouth^Midfielder
+70_Eunan O'Kane,Bournemouth^Midfielder
+71_Shaun MacDonald,Bournemouth^Midfielder
+72_Junior Stanislas,Bournemouth^Midfielder
+73_Dan Gosling,Bournemouth^Midfielder
+74_Callum Wilson,Bournemouth^Forward
+75_Yann Kermorgant,Bournemouth^Forward
+76_Tokelo Rantie,Bournemouth^Forward
+77_Thibaut Courtois,Chelsea^Goalkeeper
+78_John Terry,Chelsea^Defender
+79_Branislav Ivanovic,Chelsea^Defender
+80_César Azpilicueta,Chelsea^Defender
+81_Gary Cahill,Chelsea^Defender
+82_Kurt Zouma,Chelsea^Defender
+83_Filipe Luis Filipe Luis,Chelsea^Defender
+84_Nathan Aké,Chelsea^Defender
+85_Andreas Christensen,Chelsea^Defender
+86_Eden Hazard,Chelsea^Midfielder
+87_Cesc Fàbregas,Chelsea^Midfielder
+88_Oscar Oscar,Chelsea^Midfielder
+89_Juan Cuadrado,Chelsea^Midfielder
+90_Willian Willian,Chelsea^Midfielder
+91_Ramires Ramires,Chelsea^Midfielder
+92_Nemanja Matic,Chelsea^Midfielder
+93_Ruben Loftus-Cheek,Chelsea^Midfielder
+94_John Obi Mikel,Chelsea^Midfielder
+95_Isaiah Brown,Chelsea^Midfielder
+96_Victor Moses,Chelsea^Midfielder
+97_Nathan Allan Nathan,Chelsea^Midfielder
+98_Diego Costa,Chelsea^Forward
+99_Loïc Remy,Chelsea^Forward
+100_Dominic Solanke,Chelsea^Forward
+101_Radamel Falcao Falcao,Chelsea^Forward
+102_Julian Speroni,Crystal Palace^Goalkeeper
+103_Wayne Hennessey,Crystal Palace^Goalkeeper
+104_Scott Dann,Crystal Palace^Defender
+105_Joel Ward,Crystal Palace^Defender
+106_Adrian Mariappa,Crystal Palace^Defender
+107_Martin Kelly,Crystal Palace^Defender
+108_Damien Delaney,Crystal Palace^Defender
+109_Pape Souaré,Crystal Palace^Defender
+110_Ezekiel Fryers,Crystal Palace^Defender
+111_Brede Hangeland,Crystal Palace^Defender
+112_Yannick Bolasie,Crystal Palace^Midfielder
+113_Jason Puncheon,Crystal Palace^Midfielder
+114_Wilfried Zaha,Crystal Palace^Midfielder
+115_Mile Jedinak,Crystal Palace^Midfielder
+116_Joe Ledley,Crystal Palace^Midfielder
+117_James McArthur,Crystal Palace^Midfielder
+118_Jordon Mutch,Crystal Palace^Midfielder
+119_Barry Bannan,Crystal Palace^Midfielder
+120_Jonathan Williams,Crystal Palace^Midfielder
+121_Chung-yong Lee Chung-yong,Crystal Palace^Midfielder
+122_Adlène Guédioura,Crystal Palace^Midfielder
+123_Glenn Murray,Crystal Palace^Forward
+124_Dwight Gayle,Crystal Palace^Forward
+125_Fraizer Campbell,Crystal Palace^Forward
+126_Marouane Chamakh,Crystal Palace^Forward
+127_Tim Howard,Everton^Goalkeeper
+128_Joel Robles,Everton^Goalkeeper
+129_Leighton Baines,Everton^Defender
+130_Seamus Coleman,Everton^Defender
+131_Phil Jagielka,Everton^Defender
+132_John Stones,Everton^Defender
+133_Luke Garbutt,Everton^Defender
+134_Brendan Galloway,Everton^Defender
+135_Tony Hibbert,Everton^Defender
+136_Tyias Browning,Everton^Defender
+137_Kevin Mirallas,Everton^Midfielder
+138_Ross Barkley,Everton^Midfielder
+139_Tom Cleverley,Everton^Midfielder
+140_Leon Osman,Everton^Midfielder
+141_James McCarthy,Everton^Midfielder
+142_Aiden McGeady,Everton^Midfielder
+143_Steven Pienaar,Everton^Midfielder
+144_Gareth Barry,Everton^Midfielder
+145_Darron Gibson,Everton^Midfielder
+146_Muhamed Besic,Everton^Midfielder
+147_Bryan Oviedo,Everton^Midfielder
+148_Gerard Deulofeu,Everton^Midfielder
+149_Romelu Lukaku,Everton^Forward
+150_Steven Naismith,Everton^Forward
+151_Arouna Koné,Everton^Forward
+152_Kasper Schmeichel,Leicester^Goalkeeper
+153_Ben Hamer,Leicester^Goalkeeper
+154_Wes Morgan,Leicester^Defender
+155_Christian Fuchs,Leicester^Defender
+157_Marcin Wasilewski,Leicester^Defender
+158_Paul Konchesky,Leicester^Defender
+159_Ritchie de Laet,Leicester^Defender
+160_Danny Simpson,Leicester^Defender
+161_Liam Moore,Leicester^Defender
+162_Robert Huth,Leicester^Defender
+163_Riyad Mahrez,Leicester^Midfielder
+164_Marc Albrighton,Leicester^Midfielder
+165_Andy King,Leicester^Midfielder
+166_Daniel Drinkwater,Leicester^Midfielder
+167_Dean Hammond,Leicester^Midfielder
+168_Anthony Knockaert,Leicester^Midfielder
+169_Matthew James,Leicester^Midfielder
+170_Jamie Vardy,Leicester^Forward
+171_Leonardo Ulloa,Leicester^Forward
+172_Andrej Kramaric,Leicester^Forward
+173_David Nugent,Leicester^Forward
+174_Shinji Okazaki,Leicester^Forward
+175_Simon Mignolet,Liverpool^Goalkeeper
+176_Adam Bogdan,Liverpool^Goalkeeper
+177_Martin Skrtel,Liverpool^Defender
+178_José José Enrique,Liverpool^Defender
+179_Kolo Touré,Liverpool^Defender
+180_Mamadou Sakho,Liverpool^Defender
+181_Tiago Ilori,Liverpool^Defender
+182_Dejan Lovren,Liverpool^Defender
+183_Javier Manquillo,Liverpool^Defender
+184_Alberto Moreno,Liverpool^Defender
+185_Andre Wisdom,Norwich^Defender
+186_Nathaniel Clyne,Liverpool^Defender
+187_Leiva Lucas,Liverpool^Midfielder
+188_Jordan Henderson,Liverpool^Midfielder
+189_Raheem Sterling,Man City^Midfielder
+190_Joe Allen,Liverpool^Midfielder
+191_Philippe Coutinho,Liverpool^Midfielder
+192_Jordon Ibe,Liverpool^Midfielder
+193_Emre Can,Liverpool^Midfielder
+194_Adam Lallana,Liverpool^Midfielder
+195_Lazar Markovic,Liverpool^Midfielder
+196_Oluwaseyi Sheyi Ojo,Liverpool^Midfielder
+197_James Milner,Liverpool^Midfielder
+198_Roberto Firmino,Liverpool^Midfielder
+199_Daniel Sturridge,Liverpool^Forward
+200_Rickie Lambert,Liverpool^Forward
+201_Fabio Borini,Liverpool^Forward
+202_Mario Balotelli,Liverpool^Forward
+203_Danny Ings,Liverpool^Forward
+204_Divock Origi,Liverpool^Forward
+205_Joe Hart,Man City^Goalkeeper
+206_Willy Caballero,Man City^Goalkeeper
+207_Aleksandar Kolarov,Man City^Defender
+208_Pablo Zabaleta,Man City^Defender
+209_Vincent Kompany,Man City^Defender
+210_Gaël Clichy,Man City^Defender
+211_Martín Demichelis,Man City^Defender
+212_Bacary Sagna,Man City^Defender
+213_Eliaquim Mangala,Man City^Defender
+214_Jason Denayer,Man City^Defender
+215_Samir Nasri,Man City^Midfielder
+216_David Silva,Man City^Midfielder
+217_Gnegneri Yaya Yaya Touré,Man City^Midfielder
+218_Jesús Navas,Man City^Midfielder
+219_Fernando Fernandinho,Man City^Midfielder
+220_Fernando Francisco Fernando,Man City^Midfielder
+221_Edin Dzeko,Man City^Forward
+222_Sergio Agüero,Man City^Forward
+223_Stevan Jovetic,Man City^Forward
+224_Wilfried Bony,Man City^Forward
+225_Jose Pozo,Man City^Forward
+226_David de Gea,Man Utd^Goalkeeper
+227_Víctor Valdés,Man Utd^Goalkeeper
+228_Chris Smalling,Man Utd^Defender
+229_Phil Jones,Man Utd^Defender
+230_Rafael Pereira Rafael,Man Utd^Defender
+231_Jonny Evans,Man Utd^Defender
+232_Guillermo Varela,Man Utd^Defender
+233_Luke Shaw,Man Utd^Defender
+234_Tyler Blackett,Man Utd^Defender
+235_Marcos Rojo,Man Utd^Defender
+236_Patrick McNair,Man Utd^Defender
+237_Antonio Valencia,Man Utd^Defender
+238_Juan Mata,Man Utd^Midfielder
+239_Marouane Fellaini,Man Utd^Midfielder
+240_Memphis Depay,Man Utd^Midfielder
+241_Michael Carrick,Man Utd^Midfielder
+242_Ashley Young,Man Utd^Midfielder
+243_Adnan Januzaj,Man Utd^Midfielder
+245_Ángel Di María,Man Utd^Midfielder
+246_Daley Blind,Man Utd^Midfielder
+247_Andreas Pereira,Man Utd^Midfielder
+248_Robin van Persie,Man Utd^Forward
+249_Javier Hernández,Man Utd^Forward
+250_Wayne Rooney,Man Utd^Forward
+251_James Wilson,Man Utd^Forward
+252_Tim Krul,Newcastle^Goalkeeper
+253_Robert Elliot,Newcastle^Goalkeeper
+254_Michael Williamson,Newcastle^Defender
+255_Steven Steven Taylor,Newcastle^Defender
+256_Fabricio Coloccini,Newcastle^Defender
+257_Massadio Haidara,Newcastle^Defender
+258_Paul Dummett,Newcastle^Defender
+259_Daryl Janmaat,Newcastle^Defender
+260_Gabriel Obertan,Newcastle^Midfielder
+261_Cheick Tioté,Newcastle^Midfielder
+262_Mehdi Abeid,Newcastle^Midfielder
+263_Vurnon Anita,Newcastle^Midfielder
+264_Moussa Sissoko,Newcastle^Midfielder
+265_Jack Colback,Newcastle^Midfielder
+266_Yoan Gouffran,Newcastle^Midfielder
+267_Sammy Ameobi,Newcastle^Midfielder
+269_Rémy Cabella,Newcastle^Midfielder
+271_Papiss Demba Cissé,Newcastle^Forward
+272_Adam Armstrong,Newcastle^Forward
+273_Ayoze Ayoze,Newcastle^Forward
+274_Emmanuel Rivière,Newcastle^Forward
+275_John Ruddy,Norwich^Goalkeeper
+276_Declan Rudd,Norwich^Goalkeeper
+278_Steven Whittaker,Norwich^Defender
+279_Russell Martin,Norwich^Defender
+280_Martin Olsson,Norwich^Defender
+281_Michael Turner,Norwich^Defender
+282_Jos Hooiveld,Norwich^Defender
+283_Ryan Ryan Bennett,Norwich^Defender
+284_Bradley Johnson,Norwich^Midfielder
+285_Nathan Redmond,Norwich^Midfielder
+286_Wes Hoolahan,Norwich^Midfielder
+287_Jonathan Howson,Norwich^Midfielder
+288_Graham Dorrans,Norwich^Midfielder
+289_Alexander Tettey,Norwich^Midfielder
+290_Gary O'Neil,Norwich^Midfielder
+291_Elliott Elliott Bennett,Norwich^Midfielder
+292_Youssouf Mulumbu,Norwich^Midfielder
+293_Cameron Jerome,Norwich^Forward
+294_Ricky van Wolfswinkel,Norwich^Forward
+295_Lewis Grabban,Norwich^Forward
+296_Gary Hooper,Norwich^Forward
+297_Kyle Lafferty,Norwich^Forward
+298_Fraser Forster,Southampton^Goalkeeper
+299_Kelvin Davis K,Southampton^Goalkeeper
+300_Maarten Stekelenburg,Southampton^Goalkeeper
+301_Ryan Bertrand,Southampton^Defender
+302_Jose Fonte,Southampton^Defender
+303_Maya Yoshida,Southampton^Defender
+304_Matt Targett,Southampton^Defender
+305_Florin Gardos,Southampton^Defender
+306_Toby Alderweireld,Spurs^Defender
+307_Cédric Cédric,Southampton^Defender
+308_Morgan Schneiderlin,Man Utd^Midfielder
+309_Steven Davis,Southampton^Midfielder
+310_James Ward-Prowse,Southampton^Midfielder
+311_Victor Wanyama,Southampton^Midfielder
+312_Harrison Reed,Southampton^Midfielder
+314_Sadio Mané,Southampton^Midfielder
+315_Jake Hesketh,Southampton^Midfielder
+316_Eljero Elia,Southampton^Midfielder
+317_Filip Djuricic,Southampton^Midfielder
+318_Shane Long,Southampton^Forward
+320_Emmanuel Mayuka,Southampton^Forward
+321_Graziano Pellè,Southampton^Forward
+322_Juan Miguel Juanmi,Southampton^Forward
+323_Hugo Lloris,Spurs^Goalkeeper
+324_Michel Vorm,Spurs^Goalkeeper
+325_Danny Rose,Spurs^Defender
+326_Younes Kaboul,Sunderland^Defender
+327_Kyle Walker,Spurs^Defender
+330_Ben Davies,Spurs^Defender
+331_Eric Dier,Spurs^Defender
+332_Federico Fazio,Spurs^Defender
+333_DeAndre Yedlin,Spurs^Defender
+334_Kieran Trippier,Spurs^Defender
+335_Kevin Wimmer,Spurs^Defender
+336_Mousa Dembélé,Spurs^Midfielder
+337_Andros Townsend,Spurs^Midfielder
+338_Nacer Chadli,Spurs^Midfielder
+339_Etienne Capoue,Watford^Midfielder
+340_Erik Lamela,Spurs^Midfielder
+341_Christian Eriksen,Spurs^Midfielder
+342_Nabil Bentaleb,Spurs^Midfielder
+343_Alex Pritchard,Spurs^Midfielder
+344_Benjamin Stambouli,Spurs^Midfielder
+345_Ryan Mason,Spurs^Midfielder
+346_Aaron Lennon,Spurs^Midfielder
+347_Tom Carroll,Spurs^Midfielder
+348_Bamidele Alli,Spurs^Midfielder
+349_Emmanuel Adebayor,Spurs^Forward
+350_Harry Kane,Spurs^Forward
+351_Roberto Soldado,Spurs^Forward
+352_Asmir Begovic,Chelsea^Goalkeeper
+353_Jack Butland,Stoke^Goalkeeper
+354_Jakob Haugaard,Stoke^Goalkeeper
+355_Ryan Shawcross,Stoke^Defender
+356_Marc Wilson,Stoke^Defender
+357_Geoff Cameron,Stoke^Defender
+358_Erik Pieters,Stoke^Defender
+359_Marc Muniesa,Stoke^Defender
+360_Phil Bardsley,Stoke^Defender
+361_Philipp Wollscheid,Stoke^Defender
+362_Stephen Ireland,Stoke^Midfielder
+363_Charlie Adam,Stoke^Midfielder
+364_Glenn Whelan,Stoke^Midfielder
+365_Jonathan Walters,Stoke^Midfielder
+366_Steven N'Zonzi,Stoke^Midfielder
+367_Steve Sidwell,Stoke^Midfielder
+368_Marko Arnautovic,Stoke^Midfielder
+369_Peter Odemwingie,Stoke^Midfielder
+370_Peter Crouch,Stoke^Forward
+371_Mame Biram Diouf,Stoke^Forward
+372_Bojan Bojan,Stoke^Forward
+373_Jose Luis Joselu,Stoke^Forward
+374_Vito Mannone,Sunderland^Goalkeeper
+375_Costel Pantilimon,Sunderland^Goalkeeper
+376_John O'Shea,Sunderland^Defender
+377_Valentin Roberge,Sunderland^Defender
+378_Billy Jones,Sunderland^Defender
+379_Patrick van Aanholt,Sunderland^Defender
+380_Santiago Vergini,Sunderland^Defender
+381_Wes Brown,Sunderland^Defender
+382_Sebastián Coates,Sunderland^Defender
+383_Lee Cattermole,Sunderland^Midfielder
+384_Sebastian Larsson,Sunderland^Midfielder
+385_Jack Rodwell,Sunderland^Midfielder
+386_Jordi Gómez,Sunderland^Midfielder
+387_Liam Bridcutt,Sunderland^Midfielder
+388_Emanuele Giaccherini,Sunderland^Midfielder
+389_Adam Johnson,Sunderland^Midfielder
+390_William Buckley,Sunderland^Midfielder
+391_Connor Wickham,Sunderland^Forward
+392_Jermain Defoe,Sunderland^Forward
+393_Steven Fletcher,Sunderland^Forward
+394_Danny Graham,Sunderland^Forward
+395_Lukasz Fabianski,Swansea^Goalkeeper
+396_Kristoffer Nordfeldt,Swansea^Goalkeeper
+397_Kyle Naughton,Swansea^Defender
+398_Ashley Williams,Swansea^Defender
+399_Neil Taylor,Swansea^Defender
+400_Angel Rangel,Swansea^Defender
+401_Kyle Bartley,Swansea^Defender
+402_Dwight Tiendalli,Swansea^Defender
+403_Jordi Amat,Swansea^Defender
+404_Federico Fernández,Swansea^Defender
+405_Franck Tabanou,Swansea^Defender
+406_Jack Cork,Swansea^Midfielder
+407_Gylfi Sigurdsson,Swansea^Midfielder
+408_Wayne Routledge,Swansea^Midfielder
+409_Nathan Dyer,Swansea^Midfielder
+410_Leon Britton,Swansea^Midfielder
+411_Jonjo Shelvey,Swansea^Midfielder
+412_Jay Fulton,Swansea^Midfielder
+413_Sung-yueng Ki Sung-yueng,Swansea^Midfielder
+414_Jefferson Montero,Swansea^Midfielder
+415_Matt Grimes,Swansea^Midfielder
+416_André Ayew,Swansea^Midfielder
+417_Bafétimbi Gomis,Swansea^Forward
+418_Marvin Emnes,Swansea^Forward
+419_Modou Barrow,Swansea^Forward
+420_Ederzito Antonio Eder,Swansea^Forward
+421_Heurelho Gomes,Watford^Goalkeeper
+422_Jonathan Bond,Watford^Goalkeeper
+423_Giedrius Arlauskis,Watford^Goalkeeper
+424_Gabriele Angella,Watford^Defender
+425_Craig Cathcart,Watford^Defender
+426_Sebastian Prödl,Watford^Defender
+427_Juan Carlos Paredes,Watford^Defender
+428_Miguel Layún,Watford^Defender
+429_Joel Ekstrand,Watford^Defender
+430_Daniel Pudil,Watford^Defender
+431_Tommy Hoban,Watford^Defender
+432_Lloyd Doyley,Watford^Defender
+433_Daniel Tözsér,Watford^Midfielder
+434_Almen Abdi,Watford^Midfielder
+435_Ben Watson,Watford^Midfielder
+436_Diego Fabbrini,Watford^Midfielder
+437_Ikechi Anya,Watford^Midfielder
+438_Lloyd Dyer,Watford^Midfielder
+439_Lewis McGugan,Watford^Midfielder
+440_Sean Murray,Watford^Midfielder
+441_Troy Deeney,Watford^Forward
+442_Odion Ighalo,Watford^Forward
+443_Matej Vydra,Watford^Forward
+444_Fernando Forestieri,Watford^Forward
+445_Boaz Myhill,West Brom^Goalkeeper
+446_Ben Foster,West Brom^Goalkeeper
+447_Jonas Olsson,West Brom^Defender
+448_Craig Dawson,West Brom^Defender
+449_Joleon Lescott,West Brom^Defender
+450_Sébastien Pocognoli,West Brom^Defender
+451_Cristian Gamboa,West Brom^Defender
+452_Gareth McAuley,West Brom^Defender
+453_Darren Fletcher,West Brom^Midfielder
+454_Stéphane Sessegnon,West Brom^Midfielder
+455_Craig Gardner,West Brom^Midfielder
+456_James Morrison,West Brom^Midfielder
+457_Chris Brunt,West Brom^Midfielder
+458_Claudio Yacob,West Brom^Midfielder
+459_Callum McManaman,West Brom^Midfielder
+460_James McClean,West Brom^Midfielder
+461_Victor Anichebe,West Brom^Forward
+462_Saido Berahino,West Brom^Forward
+463_Brown Ideye,West Brom^Forward
+464_Georgios Samaras,West Brom^Forward
+465_Adrián Adrián,West Ham^Goalkeeper
+466_Darren Randolph,West Ham^Goalkeeper
+467_James Collins,West Ham^Defender
+468_Joey O'Brien,West Ham^Defender
+469_Winston Reid,West Ham^Defender
+470_James Tomkins,West Ham^Defender
+471_Aaron Cresswell,West Ham^Defender
+472_Reece Burke,West Ham^Defender
+473_Reece Oxford,West Ham^Defender
+474_Stewart Downing,West Ham^Midfielder
+475_Mark Noble,West Ham^Midfielder
+476_Kevin Nolan,West Ham^Midfielder
+477_Matthew Jarvis,West Ham^Midfielder
+478_Cheikhou Kouyaté,West Ham^Midfielder
+479_Diego Poyet,West Ham^Midfielder
+480_Morgan Amalfitano,West Ham^Midfielder
+481_Pedro Obiang,West Ham^Midfielder
+482_Dimitri Payet,West Ham^Midfielder
+483_Andy Carroll,West Ham^Forward
+484_Enner Valencia,West Ham^Forward
+485_Diafra Sakho,West Ham^Forward
+486_Modibo Maiga,West Ham^Forward
+487_Mauro Zárate,West Ham^Forward
+488_Mark Bunn,Aston Villa^Goalkeeper
+489_Cuco Martina,Southampton^Defender
+490_Adam Matthews,Sunderland^Defender
+491_Yohan Cabaye,Crystal Palace^Midfielder
+492_José Holebas,Watford^Defender
+493_Idrissa Gueye,Aston Villa^Midfielder
+494_Jon Flanagan,Liverpool^Defender
+495_Matteo Darmian,Man Utd^Defender
+496_Bastian Schweinsteiger,Man Utd^Midfielder
+497_Georginio Wijnaldum,Newcastle^Midfielder
+498_Gastón Ramírez,Southampton^Midfielder
+499_Glen Johnson,Stoke^Defender
+500_Marco Van Ginkel,Stoke^Midfielder
+501_Valon Behrami,Watford^Midfielder
+502_Angelo Ogbonna,West Ham^Defender
+503_Mark Schwarzer,Leicester^Goalkeeper
+504_Anders Lindegaard,Man Utd^Goalkeeper
+505_Karl Darlow,Newcastle^Goalkeeper
+506_Jamaal Lascelles,Newcastle^Defender
+507_Tony Andreu,Norwich^Midfielder
+508_Jordy Clasie,Southampton^Midfielder
+509_Mohamed Moha,Stoke^Midfielder
+510_Jeremain Lens,Sunderland^Midfielder
+511_Allan-Roméo Nyom,Watford^Defender
+512_Elliot Lee,West Ham^Forward
+513_Jordan Amavi,Aston Villa^Defender
+514_Patrick Bamford,Crystal Palace^Forward
+515_Joseph Gomez,Liverpool^Defender
+516_Patrick Roberts,Man City^Midfielder
+517_Aleksandar Mitrovic,Newcastle^Forward
+518_Alex McCarthy,Crystal Palace^Goalkeeper
+519_Miguel Britos,Watford^Defender
+520_José Manuel Jurado,Watford^Midfielder
+521_Manuel Lanzini,West Ham^Midfielder
+522_José Ángel Crespo,Aston Villa^Defender
+523_Jordan Ayew,Aston Villa^Forward
+524_Sergio Romero,Man Utd^Goalkeeper
+525_Ibrahim Afellay,Stoke^Midfielder
+526_Steven Berghuis,Watford^Midfielder
+527_Robbie Brady,Norwich^Midfielder
+528_Steven Caulker,Southampton^Defender
+529_James Chester,West Brom^Defender
+156_Jeffrey Schlupp,Leicester^Defender
+244_Ander Herrera,Man Utd^Midfielder
+268_Siem de Jong,Newcastle^Midfielder
+270_Rolando Aarons,Newcastle^Midfielder
+277_Sebastien Bassong,Norwich^Defender
+313_Dusan Tadic,Southampton^Midfielder
+319_Jay Rodriguez,Southampton^Forward
+328_Jan Vertonghen,Spurs^Defender
+329_Vlad Chiriches,Spurs^Defender

@@ -1,21 +1,67 @@
 html {
-    /*background-color: #f4a300;*/
-    background-color: #212C31;
+    background-color: #ECF0F5;
 }
 
 div.no-print {
     display: none;
 }
 
+table.totals tbody tr {
+  cursor: pointer;
+}
+
 .player-table thead tr th {
     text-align: center;
 }
-
 .player-table tbody tr td {
     text-align: center;
 }
-
 .player-table tbody tr th {
     text-align: center;
     vertical-align: middle;
+}
+
+.content-wrapper {
+    margin-left: 0 !important;
+}
+
+.team-visi {
+    text-align: center;
+}
+
+.team-visi .col-xs-3 {
+    text-align: center;
+}
+
+.team-visi .player {
+    text-align: center;
+}
+
+.team-visi .player .name {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.team-visi .player .points {
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+
+.team-visi .player img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /*max-width: 70%;*/
+    /*height: auto;*/
+    padding: 10px;
+
+    height: 128px;
+    width: 128px;
+    max-width:100%;
+    max-height:100%;
 }
