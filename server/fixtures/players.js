@@ -1,6 +1,6 @@
 Meteor.startup(function() {
 
-    var max_id = 529;
+    var max_id = 533;
 
     if (Players.find().count() === 0) {
         for (var i = 1; i < max_id + 1; i++) {
