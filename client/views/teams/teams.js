@@ -1,3 +1,55 @@
+Template.teams.helpers({
+    timeSinceUpdated: function() {
+        return Session.get("timeSinceUpdated") || 'calculating...';
+    },
+    isUpdating: function() {
+        return Session.get("isUpdating") || false;
+    }
+});
+
+Template.teams.rendered = function() {
+    console.log("teams rendered");
+    Meteor.call("getTimeSinceLastUpdated", function(err, res) {
+        if (moment(res).isValid()) {
+            Session.set("timeSinceUpdated", moment(res).fromNow());
+        } else {
+            Session.set("timeSinceUpdated", res);
+        }
+    });
+    Meteor.call("isUpdating", function(err, res) {
+        Session.set("isUpdating", res);
+    })
+};
+
+Template.teams.events({
+    'click button': function() {
+        Session.set("isUpdating", true);
+        var teams = Teams.find().fetch();
+        var teamCount = teams.length;
+        var counter = 0;
+
+        var teams = _.each(Teams.find().fetch(), function(team){
+            var oldScore = team.score;
+            console.log("Calling 'update' for "+team.name);
+            Meteor.call("loadOneTeamData", team._id, function(err, res){
+                console.log("Team: "+team.name);
+                console.log("Old score: "+oldScore);
+                console.log("New score: "+res);
+                console.log();
+                counter++;
+
+                console.log("counter ="+counter);
+                console.log("teamCount ="+teamCount);
+
+                if (counter == teamCount) {
+                    Session.set("isUpdating", false);
+                    Session.set("timeSinceUpdated", moment(moment).fromNow());
+                }
+            });
+        });
+    }
+});
+
 Template.team.events({
     'click td': function() {
         Session.set("selectedTeam", this);
@@ -29,7 +81,7 @@ Template.team_visi.events({
 })
 Template.team_visi.helpers({
     score: function() {
-        return this.best_xi_score();
+        return this.score;
     },
     goalie: function() {
         return _.sortBy(_.where(Session.get("selectedTeam").players, {

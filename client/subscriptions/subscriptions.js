@@ -3,3 +3,4 @@
 // ***************************************************************
 
 // Meteor.subscribe('teams');
+Meteor.subscribe('timeSinceLastUpdate');

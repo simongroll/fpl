@@ -2,6 +2,14 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>Fantasy Auction 2015/2016</h1>
+        <div style="padding-top:9px;">
+            <small style="padding-right:9px;">Teams last updated: {{timeSinceUpdated}}</small>
+            {{#if isUpdating}}
+            <button class="btn btn-success btn-flat disabled">Update in progress</button>
+            {{else}}
+            <button class="btn btn-success btn-flat">Update Now</button>
+            {{/if}}
+        </div>
     </section>
     <!-- Main content -->
     <section class="content">
@@ -93,7 +101,7 @@
     <tr>
         <td>{{_index}}</td>
         <td>{{name}}</td>
-        <td>{{best_xi_score}}</td>
+        <td>{{score}}</td>
     </tr>
 </template>
 <template name="detailed">
@@ -140,7 +148,7 @@
                                 <td>{{points}}
                                     <br/><small> {{name}}</small></td>
                                 {{/each}}
-                                <th>{{best_xi_score}}</th>
+                                <th>{{score}}</th>
                             </tr>
                             {{else}}
                             <tr>
