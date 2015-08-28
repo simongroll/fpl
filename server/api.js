@@ -114,14 +114,21 @@ Meteor.methods({
             var cf = forwards[0].points + forwards[1].points;
 
             var newScore = gk + df + mf + cf;
+            console.log(team.name);
+            console.log("gk = "+gk);
+            console.log("df = "+df);
+            console.log("mf = "+mf);
+            console.log("cf = "+cf);
+            console.log("new score = "+newScore);
 
             Teams.update({
-                "_id": team._id
+                _id: team._id
             }, {
                 $set: {
                     score: newScore
                 }
             });
+
 
             return newScore;
 
