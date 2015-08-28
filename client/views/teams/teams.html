@@ -7,13 +7,13 @@
             {{#if isUpdating}}
             <button class="btn btn-success btn-flat disabled">Update in progress</button>
             {{else}}
-            <button class="btn btn-success btn-flat">Update Now</button>
+            <button id="update" class="btn btn-success btn-flat">Update Now</button>
             {{/if}}
         </div>
     </section>
     <!-- Main content -->
     <section class="content">
-        {{>totals}} {{>detailed}}
+        {{>totals}} {{>detailed}} {{>gameweeks}}
     </section>
 </template>
 <template name="totals">
@@ -108,7 +108,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box box-success">
-                <div class="box-header with-border">
+                <div class="box-header">
                     <h3 class="box-title">Detailed Standings</h3>
                 </div>
                 <div class="box-body table-responsive" style="display: block;">
@@ -149,6 +149,71 @@
                                     <br/><small> {{name}}</small></td>
                                 {{/each}}
                                 <th>{{score}}</th>
+                            </tr>
+                            {{else}}
+                            <tr>
+                                <td colspan="2">Loading . . .</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="gameweeks">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Gameweek {{currentGameweek}}</h3>
+                    </div>
+                    <div class="box-header with-border">
+                        <div class="btn-group">
+                            {{{changeGameweekButtons}}}
+                        </div>
+                </div>
+                <div class="box-body table-responsive" style="display: block;">
+                    <table class="table table-striped player-table">
+                        <thead>
+                            <tr>
+                                <!-- <th></th> -->
+                                <th>Team Name</th>
+                                <th>GK</th>
+                                <th>DF1</th>
+                                <th>DF2</th>
+                                <th>DF3</th>
+                                <th>DF4</th>
+                                <th>MF1</th>
+                                <th>MF2</th>
+                                <th>MF3</th>
+                                <th>MF4</th>
+                                <th>CF1</th>
+                                <th>CF2</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each indexedArray teams}}
+                            <tr>
+                                <!-- <td style="vertical-align: middle;">{{_index}}</td> -->
+                                <th>{{name}}</th>
+                                <td>{{gk.points}}
+                                    <br/><small> {{gk.name}}</small></td>
+                                {{#each defenders}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}} {{#each midfielders}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}} {{#each forwards}}
+                                <td>{{points}}
+                                    <br/><small> {{name}}</small></td>
+                                {{/each}}
+                                <th>{{gameweekTotal}}</th>
                             </tr>
                             {{else}}
                             <tr>
