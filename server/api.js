@@ -58,6 +58,16 @@ Meteor.methods({
         timeSinceLastUpdated = moment();
     },
 
+    "getCurrentGameweek": function() {
+
+        try {
+            var response = HTTP.get('http://fantasy.premierleague.com/web/api/elements/3');
+            console.log("Set gameweek to "+response.data.fixture_history.all.length);
+            return response.data.fixture_history.all.length;
+        } catch (e) {
+
+        }
+    },
     "loadOneTeamData": function(teamId) {
         currentlyUpdating = true;
         try {

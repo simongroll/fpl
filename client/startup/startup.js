@@ -6,6 +6,11 @@ Meteor.startup(function() {
 
   Session.set("selectedTeam", null);
 
+  Meteor.call("getCurrentGameweek", function(e,r){
+    Session.set("maxGameweek", r);
+    Session.set("gameweek", r);
+  });
+
     // Meteor.call("loadTeamData", function(err, res) {
     //     if (err) console.log(err);
     //     else {

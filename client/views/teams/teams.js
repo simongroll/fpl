@@ -146,11 +146,13 @@ Template.detailed.helpers({
     }
 });
 
-Template.gameweeks.created = function() {
-    var maxGameweek = this.data.teams().fetch()[0].players[0].gameweeks.length;
-    Session.set("gameweek", maxGameweek);
-    Session.set("maxGameweek", maxGameweek);
-};
+// Template.gameweeks.rendered = function() {
+//     if (this.data.teams().fetch()[0].players[0].gameweeks){
+//         var maxGameweek = this.data.teams().fetch()[0].players[0].gameweeks.length;
+//         Session.set("gameweek", maxGameweek);
+//         Session.set("maxGameweek", maxGameweek);
+//     }
+// };
 
 Template.gameweeks.events({
     'click button.change-gameweek': function(evt) {
@@ -297,37 +299,3 @@ Template.gameweeks.helpers({
         return gkScore + dfScore + mfScore + cfScore;
     }
 });
-/*
-Template.gameweeks2.helpers({
-    gk: function() {
-        var goalies = _.where(this.players, {
-            position: "Goalkeeper"
-        });
-        var sortedGoalies = _.sortBy(goalies, 'points').reverse();
-        return _.first(sortedGoalies);
-    },
-
-    defenders: function() {
-        var defenders = _.where(this.players, {
-            position: "Defender"
-        });
-        var sortedDefenders = _.sortBy(defenders, 'points').reverse();
-        return _.first(sortedDefenders, 4);
-    },
-
-    midfielders: function() {
-        var midfielders = _.where(this.players, {
-            position: "Midfielder"
-        });
-        var sortedMidfielders = _.sortBy(midfielders, 'points').reverse();
-        return _.first(sortedMidfielders, 4);
-    },
-
-    forwards: function() {
-        var forwards = _.where(this.players, {
-            position: "Forward"
-        });
-        var sortedForwards = _.sortBy(forwards, 'points').reverse();
-        return _.first(sortedForwards, 2);
-    }
-});*/
